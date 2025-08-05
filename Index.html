@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Study Group Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Study Group Finder</h1>
+    <form id="studyForm">
+      <input type="text" id="name" placeholder="Your name" required />
+      <input type="text" id="subject" placeholder="Subject you're studying" required />
+      <input type="text" id="time" placeholder="When you're free (e.g., 2–4 PM)" required />
+      <input type="text" id="location" placeholder="Where you'll be" required />
+      <button type="submit">Add Study Session</button>
+    </form>
+
+    <h2>Upcoming Study Sessions</h2>
+    <div id="studyList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
